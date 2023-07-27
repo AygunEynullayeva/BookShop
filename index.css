@@ -1,0 +1,454 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 100%;
+    height: 100vh;
+}
+html,body{ scroll-behavior: smooth;
+
+}
+.menyu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    box-shadow: 2px 2px 3px rgb(5, 56, 59);
+    
+
+}
+i:hover{
+    color: rgb(5, 56, 59);
+}
+nav{
+   
+    width: 400px;
+}
+ul{
+    list-style: none;
+    display: flex;
+   
+}
+li{
+    margin-left: 10px;
+}
+a{
+    text-decoration: none;
+}
+i:hover{
+    color: blue;
+}
+.logo{
+    width: 60px;
+    height:50px;
+    object-fit: cover;
+}
+
+p{
+    font-family: 'Space Grotesk', sans-serif;
+}
+.home{
+    display: flex;
+
+}
+.table{
+    width: 600px;
+    height: 300px;
+    object-fit: cover;
+}
+.home{
+    align-items: center;
+    width: 100%;
+    height: 500px;
+ 
+}
+.sol{
+    width: 50%;
+    
+    margin-left: 20px;
+}
+header{
+    position: fixed;
+    width: 100%;
+    background-color: white;
+}
+.second{
+    color: rgb(5, 56, 59);
+}
+button{
+    width: 100px;
+    height: 30px;
+    color: whitesmoke;
+    background-color: rgb(5, 56, 59);
+}
+.about{
+    display: flex;
+}
+.cekmece{
+    display: flex;
+    
+    width: 100%;
+    height: 300px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.yazi{
+    display: flex;
+    
+    justify-content: space-around;
+    align-items: center;
+}
+.us{
+    justify-content: space-around;
+   
+    width: 450px;
+    height: 250px;
+}
+button{
+    margin-top: 20px;
+}
+.delivery{
+    border: 1px solid rgb(5, 56, 59);
+    width:300px;
+    height: 200px;
+    padding: 10px;
+    box-shadow: 2px 2px 4px rgb(5, 56, 59);
+    text-align: center;
+    
+
+}
+.services{
+    border: 1px solid rgb(5, 56, 59);
+    width:300px;
+    height: 200px;
+    padding: 10px;
+    box-shadow: 2px 2px 4px rgb(5, 56, 59);
+    text-align: center;
+}
+.deal{
+    border: 1px solid rgb(5, 56, 59);
+    width:300px;
+    height: 200px;
+    padding: 10px;
+    box-shadow: 2px 2px 4px rgb(5, 56, 59);
+    text-align: center;
+}
+.secure{
+    border: 1px solid rgb(5, 56, 59);
+    width:300px;
+    height: 200px;
+    padding: 10px;
+    box-shadow: 2px 2px 4px rgb(5, 56, 59);
+    text-align: center;
+}
+.icon{
+    color: rgb(5, 56, 59);
+    padding: 10px;
+    font-size: 2em;
+}
+h2{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.sol h2{
+    margin-bottom: 0;
+}
+.soz{
+    color:black;
+    font-family: 'Space Grotesk', sans-serif;
+}
+.contain{
+    width: 100%;
+    height: 470px;
+    overflow: auto;
+    
+    box-sizing: border-box;
+    
+}
+.overflow{
+    height: 443px;
+    width: 2000px;
+   
+    display: flex;
+    gap: 18px;
+   
+    
+  
+    
+}
+.overflow div{
+    height:437px ;
+    width:250px ;
+    border: 1px solid gray;
+    align-items: center;
+   
+   
+}
+.featured h2{
+    text-align: center;
+    font-family: 'Space Grotesk', sans-serif;
+}
+.overflow img{
+    margin-top: 6px;
+    margin-left: 12px;
+}
+a{
+    color: black;
+}
+.featured{
+    padding: 20px;
+}
+.fea{
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 1.3em;
+}
+.books{
+    font-size: 1.9em;
+    padding: 20px;
+
+}
+.qiymet{ 
+    
+   border:none
+}
+h4{
+    margin-left: 94px;
+    margin-bottom: 5px;
+    text-decoration: line-through;
+}
+.yeni{
+ margin-left: 40px;
+ font-weight: bold;
+} 
+.ad{
+    color: grey;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+   font-size: 15px;
+
+}
+.nov{
+    text-align: center;
+    color: rgb(5, 56, 59);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+
+}
+.dolar{
+   margin-left: 40px;
+   color: rgb(5, 56, 59);
+   background-color: white;
+  margin-top: 15px;
+}
+.new{
+    font-size: 1.9em;
+    padding: 20px;
+    font-family: 'Space Grotesk', sans-serif;
+    text-align: center;
+}
+.yuxari{
+    display: flex;
+   
+    justify-content: space-evenly;
+    height: 390px;
+   
+}
+.asagi{
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-evenly;
+    
+    height: 390px;
+   
+
+}
+.yuxari div{
+    border: 1px solid gray;
+    height: 399px;
+    width: 240px;
+    
+}
+.yuxari img{
+   margin-top: 1px;
+   margin-left: 35px;
+   box-shadow: 2px 2px 3px black;
+}
+.asagi div{
+    border: 1px solid gray;
+    height: 399px;
+    width: 240px;
+}
+.asagi img{
+    margin-top: 1px;
+    margin-left: 35px;
+    box-shadow: 2px 2px 3px black;
+}
+.yuxari div h2{
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 1.3em;
+    text-align: center;
+}
+.space{
+    margin-left: 60px;
+    background-color: white;
+    color: rgb(5, 56, 59);
+   
+}
+.yuxari div i{
+   color: rgb(5, 56, 59);
+}
+.asagi div h2{
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 1.3em;
+    text-align: center;
+}
+.asagi div i{
+    color: rgb(5, 56, 59);
+}
+.yuxari div .ulduz{
+    height: 30px;
+    width: 180px;
+    border-color: white;
+    margin-left: 78px;
+}
+.asagi div .ulduz{
+    height: 30px;
+    width: 180px;
+   border-color: white;
+    margin-left: 78px; 
+}
+.reviews{
+    
+    height: 400px;
+    width: 100%;
+    display: flex;
+    margin-top: 30px;
+}
+.bas{
+      
+      margin-top: 30px;
+      font-family: 'Space Grotesk', sans-serif;
+    font-size: 1.9em;
+    text-align: center;
+}
+.reviews div{
+    border: 1px solid rgb(5, 56, 59);
+    box-shadow: 2px 2px 3px rgb(5, 56, 59);
+    height: 390px;
+    width: 336px;
+    padding: 12px;
+    margin: 10px;
+    
+}
+.reviews div .ulduz{
+    height: 30px;
+    width: 180px;
+   border-color: white;
+    color: rgb(5, 56, 59);
+    box-shadow: none;
+    
+}
+.reviews div img{
+    border-radius: 50%;
+}
+.goy img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    
+}
+.goy{
+    margin-top: 40px;
+}
+.blog{
+    width: 100%;
+    height: 490px;
+    
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-around;
+   
+    
+}
+.our{
+    font-size: 2em;
+    margin-top: 20px;
+    font-family: 'Space Grotesk', sans-serif;
+  
+  text-align: center;
+}
+.blog div{
+    border: 1px solid rgb(5, 56, 59);
+    width: 368px;
+    height:380px ;
+    box-shadow: 2px 2px 3px rgb(5, 56, 59);
+}
+.blog div .calen{
+    border: 1px solid white;
+    height: 26px;
+    width: 360px; display: flex;
+    justify-content: space-between;
+    margin-left: 3px;
+    color: rgb(5, 56, 59);
+    margin-top: 4px;
+    font-size: 1.2em;
+ box-shadow: none;
+}
+.blog div img{
+    object-fit: cover;
+}
+.blog div h2{
+    font-size: 1.6em;
+    font-family: 'Space Grotesk', sans-serif;
+    color: rgb(5, 56, 59);
+    margin-left: 20px;
+
+}
+.blog div p{
+    margin-left: 10px;
+    padding: 9px;
+}
+.footer{
+    height: 400px;
+    width: 100%;
+    border: 1px solid grey;
+    display: flex;
+    background-color: gray;
+}
+.footer div{
+   
+    height: 300px;
+    width: 350px;
+    padding: 20px;
+    
+}
+.footer div .alaka{
+    border: none;
+}
+.footer div h2{
+    
+    font-weight: bold;
+    
+    font-family: 'Roboto Slab', serif;
+ 
+}
+.footer div h3{
+    
+    font-weight: lighter;
+    padding: 5;
+
+}
+.footer .contact {
+ padding: 10px;
+ 
+}
+.footer div i{
+    font-size: 1.2em;
+    margin: 5px;
+}
+footer div .email{
+ border-radius: 40px;
+
+}
